@@ -1,0 +1,23 @@
+.main-sections {
+    background-color: white;
+    border-radius: 5px;
+    margin: 15px 0px;
+    padding: 15px 0px;
+    box-shadow: inset 0px 0px 10px 0px black;
+    div {
+        margin: 25px 15px;
+        h2 {
+            color: $color-chia;
+            text-align: center;
+        }
+        
+        p {
+            text-align: justify;
+            margin: 0 auto;
+        }
+    }   
+}
+
+.quote-container {
+    color: $color-darkred;
+}

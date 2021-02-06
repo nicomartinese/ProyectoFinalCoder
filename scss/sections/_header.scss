@@ -1,0 +1,24 @@
+header {
+    background-color: white;
+    border-radius: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 0 0 15px 0 black;
+    position: sticky;
+    top: 0px;
+    z-index: 9999;
+    nav {
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        flex-wrap: wrap;
+        .logo {
+            display: flex;
+            justify-content: flex-start;
+            align-items: center;
+            margin: 5px;
+            padding: 5px;
+        }
+    }
+}

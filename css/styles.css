@@ -1,0 +1,124 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body, html {
+  background-image: url(../images/bg.jpg);
+  background-size: cover;
+  background-attachment: fixed;
+  color: black;
+}
+
+header {
+  background-color: white;
+  border-radius: 5px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  box-shadow: 0 0 15px 0 black;
+  position: sticky;
+  top: 0px;
+  z-index: 9999;
+}
+header nav {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  flex-wrap: wrap;
+}
+header nav .logo {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  margin: 5px;
+  padding: 5px;
+}
+
+@keyframes float {
+  0% {
+    transform: translateY(0);
+  }
+  50% {
+    transform: translateY(5px);
+  }
+  100% {
+    transform: translateY(-5px);
+  }
+}
+.claim {
+  display: flex;
+  justify-content: center;
+  align-content: center;
+  color: #e7c639;
+  animation: float 1s infinite alternate;
+}
+.claim h1 {
+  margin: 50px;
+  text-align: center;
+}
+
+.main-sections {
+  background-color: white;
+  border-radius: 5px;
+  margin: 15px 0px;
+  padding: 15px 0px;
+  box-shadow: inset 0px 0px 10px 0px black;
+}
+.main-sections div {
+  margin: 25px 15px;
+}
+.main-sections div h2 {
+  color: #8780b3;
+  text-align: center;
+}
+.main-sections div p {
+  text-align: justify;
+  margin: 0 auto;
+}
+
+.quote-container {
+  color: #bf5268;
+}
+
+.last-sections {
+  border-radius: 5px;
+  margin: 15px 0px;
+  padding: 15px 0px;
+  height: 500px;
+}
+.last-sections h2 {
+  color: #8780b3;
+  text-align: center;
+}
+.last-sections .card {
+  height: 400px;
+  margin: 15px auto;
+}
+
+.form-container {
+  background-color: white;
+  border-radius: 5px;
+  margin: 15px 0px;
+  padding: 15px 0px;
+}
+.form-container h2 {
+  color: #8780b3;
+  text-align: center;
+}
+.form-container .btn {
+  border: 2px solid #bf5268;
+  border-radius: 30px;
+  color: #bf5268;
+}
+
+footer {
+  background-color: black;
+  border-radius: 5px;
+  margin: 15px 0px;
+  padding: 15px 0px;
+  color: #e7c639;
+}
+
+/*# sourceMappingURL=styles.css.map */

@@ -1,0 +1,23 @@
+@keyframes float {
+    0% {
+        transform: translateY(0);
+    }
+    50% {
+        transform: translateY(5px);
+    }
+    100% {
+        transform: translateY(-5px);
+    }
+}
+
+.claim {
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    color: $color-bloom;
+    animation: float 1s infinite alternate;
+    h1 {
+        margin: 50px;
+        text-align: center;
+    }
+}
